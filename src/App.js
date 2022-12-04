@@ -25,13 +25,17 @@ const bannerCardsList = [
 
 const App = () =>
   bannerCardsList.map(eachItem => (
-    <ul>
-      <BannerCardItem
-        key={eachItem.id}
-        list={eachItem}
-        bannerCardsList={bannerCardsList}
-      />
-    </ul>
+    <div className="app-container">
+      <ul className="banner-cards-list">
+        {
+          <BannerCardItem
+            key={eachItem.id}
+            list={eachItem}
+            bannerCardsList={bannerCardsList}
+          />
+        }
+      </ul>
+    </div>
   ))
 
 export default App

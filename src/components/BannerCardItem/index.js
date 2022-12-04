@@ -7,7 +7,7 @@ const BannerCardItem = props => {
   console.log(className)
 
   return (
-    <li className={className}>
+    <li className={`${className} seperate`}>
       <div>
         <h1 className="heading">{headerText}</h1>
         <p>{description}</p>
