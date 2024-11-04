@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.common1{
+  border-radius: 10px;
+  border: 1px solid #9d9fa1;
+  padding:14px;
+  margin:10px;
+  min-width: 45vw;
+  max-width:50vw;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.common2{
+  border-radius: 10px;
+  border: 1px solid #9d9fa1;
+  padding:14px;
+  margin:10px;
+  text-align: left;
+  min-width: 45vw;
+  max-width:50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+
+.common3{
+  border-radius: 10px;
+  border: 1px solid #9d9fa1;
+  padding:14px;
+  margin:10px;
+  text-align: left;
+  min-width: 45vw;
+  max-width:50vw;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+.card-1 {
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  text-align: left;
+  
+
+}
+
+@media screen and (max-width:768px) {
+  .common2{
+    align-items: center;
+  }
+ 
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left:20px;
+  align-items: center;
+  
+}
+
+button{
+  cursor: pointer;
+  border: 2px solid #7258f2;
+  color:#7258f2;
+}
+
+h1{
+  color:#4054ad;
+}
+
+p{
+ font-size: 20px;
+ color: #777;
+ font-weight: 600;
+}
